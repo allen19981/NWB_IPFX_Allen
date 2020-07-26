@@ -1,0 +1,173 @@
+Script started on Fri 24 Jul 2020 06:36:20 PM EDT
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ git pull
+Already up-to-date.
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ ls
+Combining csv files.ipynb                             Extracting features from nwb mouse specimen id.ipynb  Human missing specimens            [0m[01;34mSCC_runs[0m
+Extracting features from nwb human specimen id.ipynb  full_human_features_from_nwb_local.csv                Message Output for Human Specimen  screen_terminal_mouse9_retry.txt
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ module load [K[K[K[K[K[K[K[K[K[K[K[Klsgit pullls[Kcd /external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscreen -ls[K[6Pexitscreen -lsX -S mouse quitls[KX -S download quitls[K[1P-ls[1Pgit pullshcommit -m "mouse run 9"add .[Krunipy "/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id.ipynb" OutputNotebook9.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmodule list[K[3Pgit pullmodule list[3Pgit pushcommit -m "new run of mouse 2"add .[Kcommit -m "new run of mouse 2"status[Krunipy "/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id-Copy.ipynb" OutputNotebook2.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push[Kstatus[1Padd .[1Ppullshcommit -m "mouse run 8b"[K[1Padd .runipy "/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id.ipynb" OutputNotebook8.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull[Kshcommit -m "mouse run 8"add .[K[Krunipy "/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id.ipynb" OutputNotebook8.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull[Kmodule list[3Pgit pushllcommit -m 'Sonny is dumb'[K[1Padd .[Kcommit[2Ppushrunipy "/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id.ipynb" OutputNotebook7.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmodule list[Koad PYTHON/3.6cd /external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Pmodule load PYTHON/3.6
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ module list
+Currently Loaded Modulefiles:
+  1) PYTHON/3.6
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ module listoad PYTHON/3.6ls[Kgit pullls[Kcd /external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscreen -ls[K[6Pexitscreen -lsX -S mouse quitls[KX -S download quitls[K[1P-ls[1Pgit pullshcommit -m "mouse run 9"add .[Krunipy "/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id.ipynb" OutputNotebook9.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmodule list[Krunipy "/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id.ipynb" OutputNotebook9.ipynb
+07/24/2020 06:37:40 PM INFO: Reading notebook /external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen/Extracting features from nwb mouse specimen id.ipynb
+07/24/2020 06:37:42 PM INFO: Running cell:
+# Load IPFX libraries
+from ipfx.dataset.create import create_ephys_data_set
+from ipfx.data_set_features import extract_data_set_features
+from ipfx.utilities import drop_failed_sweeps
+
+# Load pandas library too
+import pandas as pd
+mouse_data_dict = {}
+
+07/24/2020 06:37:59 PM INFO: Cell returned
+07/24/2020 06:37:59 PM INFO: Running cell:
+from ipfx.data_access import get_archive_info
+archive_url, file_manifest, experiment_metadata = get_archive_info(dataset="mouse")
+mouse_specimen_id = list(experiment_metadata['cell_specimen_id'])
+file_manifest
+file_name_dict = {}
+for index, row in file_manifest.iterrows():
+    if row["file_name"][-4:] == ".nwb":
+        file_name_dict[row["cell_specimen_id"]] = row["file_name"]
+        
+new_file_name = {}
+index = 0
+for item in file_name_dict:
+    if index > 2137:
+        new_file_name[item] = file_name_dict[item]
+    index += 1
+
+file_name_dict = new_file_name
+
+07/24/2020 06:38:02 PM INFO: Cell returned
+07/24/2020 06:38:02 PM INFO: Running cell:
+def summarize_cell_ephys_features(lsa_results):
+    hero_keep_features = ['adapt', 'avg_rate', 'first_isi', 'isi_cv', 'latency', 'mean_isi', 'median_isi', 
+                          'stim_amp']
+    rheo_keep_features = ['threshold_v', 'peak_v', 'trough_v', 
+     'fast_trough_v', 'adp_v', 'width', 'upstroke_downstroke_ratio', 'peak_t', 'fast_trough_t', 'trough_t']
+    
+    overall_cell_keep_features = ['v_baseline', 'rheobase_i', 'fi_fit_slope', 
+                                  'sag', 'vm_for_sag', 'input_resistance', 'tau']
+    
+    hero_small_dict = lsa_results['hero_sweep'][hero_keep_features]
+    rheobase_sweep_index = lsa_results['rheobase_sweep'].name
+    rheobase_sweep = lsa_results['spikes_set'][rheobase_sweep_index].iloc[0]
+    
+    rheo_spike_small_dict = rheobase_sweep[rheo_keep_features]
+    rheo_first_isi = lsa_results['rheobase_sweep']['first_isi']
+    rheo_spike_small_dict['rheo_first_isi'] = rheo_first_isi
+
+    spike_comb_dict = {**hero_small_dict, **rheo_spike_small_dict}
+
+    overall_cell_features = {x: lsa_results[x] for x in overall_cell_keep_features if x in lsa_results}
+    final_cell_feature_dict = {**spike_comb_dict, **overall_cell_features}
+    return(final_cell_feature_dict)
+
+07/24/2020 06:38:02 PM INFO: Cell returned
+07/24/2020 06:38:02 PM INFO: Running cell:
+import urllib.request
+from ipfx.dataset.create import create_ephys_data_set
+from ipfx.utilities import drop_failed_sweeps
+
+for item in file_name_dict:
+    specimen_id = item
+    file_name_spec = file_name_dict[item]
+#     row = file_manifest.query('cell_specimen_id == {} & technique == "intracellular_electrophysiology"'.format(specimen_id))
+#     archive_uri = row['archive_uri'].values[0]
+#     file_name = row['file_name'].values[0]
+#     print('Intrinsic ephys file url: ' + archive_uri)
+#     print('Intrinsic ephys file name: ' + file_name)
+
+#     print('downloading data for cell from DANDI...')
+    try:
+#         urllib.request.urlretrieve(archive_uri, file_name)
+#         print('data downloaded!')
+
+        # Create Ephys Data Set
+
+        print('loading dataset into data structure...')
+        nwb_file_name = '/external/rprshnas01/netdata_kcni/stlab/AIBS_patchseq_2020/mouse/ephys/000020/{}'.format(file_name_spec)
+        data_set = create_ephys_data_set(nwb_file=nwb_file_name) ##loads nwb file into ipfx data structure
+
+        # Drop failed sweeps: sweeps with incomplete recording or failing QC criteria
+        drop_failed_sweeps(data_set)
+
+        from ipfx.feature_extractor import SpikeFeatureExtractor, SpikeTrainFeatureExtractor
+
+        import ipfx.stimulus_protocol_analysis as spa
+        from ipfx.epochs import get_stim_epoch
+        import matplotlib.pyplot as plt
+
+
+        # get sweep table of Long Square sweeps
+        long_square_table = data_set.filtered_sweep_table(
+            stimuli=data_set.ontology.long_square_names
+        )
+        long_square_sweeps = data_set.sweep_set(long_square_table.sweep_number)
+
+        # Select epoch corresponding to the actual recording from the sweeps
+        # and align sweeps so that the experiment would start at the same time
+        long_square_sweeps.select_epoch("recording")
+        long_square_sweeps.align_to_start_of_epoch("experiment")
+
+        # find the start and end time of the stimulus
+        # (treating the first sweep as representative)
+        stim_start_index, stim_end_index = get_stim_epoch(long_square_sweeps.i[0])
+        stim_start_time = long_square_sweeps.t[0][stim_start_index]
+        stim_end_time = long_square_sweeps.t[0][stim_end_index]
+
+        # build the extractors
+        spfx = SpikeFeatureExtractor(start=stim_start_time, end=stim_end_time)
+        sptfx = SpikeTrainFeatureExtractor(start=stim_start_time, end=stim_end_time)
+
+        # run the analysis and print out a few of the features
+        long_square_analysis = spa.LongSquareAnalysis(spfx, sptfx, subthresh_min_amp=-100.0)
+        data = long_square_analysis.analyze(long_square_sweeps)
+
+        specimen_dict = summarize_cell_ephys_features(data)
+        mouse_data_dict[specimen_id] = specimen_dict
+        
+        print("{} extracted".format(item))
+        dfObj = pd.DataFrame(mouse_data_dict)
+        dfObj.to_csv('mouse_features_from_nwb9.csv')
+        
+    except Exception as err:
+        print("{} experienced an error displayed below: \n")
+        print(err)
+
+
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B                                                                                    07/25/2020 03:46:48 PM INFO: Cell returned
+Traceback (most recent call last):
+  File "/nethome/kcni/ychen/.local/bin/runipy", line 8, in <module>
+    sys.exit(main())
+  File "/nethome/kcni/ychen/.local/lib/python3.6/site-packages/runipy/main.py", line 158, in main
+    nb_runner.run_notebook(skip_exceptions=args.skip_exceptions)
+  File "/nethome/kcni/ychen/.local/lib/python3.6/site-packages/runipy/notebook_runner.py", line 232, in run_notebook
+    self.run_cell(cell)
+  File "/nethome/kcni/ychen/.local/lib/python3.6/site-packages/runipy/notebook_runner.py", line 151, in run_cell
+    msg = self.kc.get_iopub_msg(timeout=1)
+  File "/quarantine/PYTHON/anaconda3/envs/py36/lib/python3.6/site-packages/jupyter_client/client.py", line 81, in get_iopub_msg
+    return self.iopub_channel.get_msg(*args, **kwargs)
+  File "/quarantine/PYTHON/anaconda3/envs/py36/lib/python3.6/site-packages/jupyter_client/blocking/channels.py", line 57, in get_msg
+    raise Empty
+queue.Empty
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ [IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ script end
+Script started, file is end
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ remove end
+bash: remove: command not found
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ ls
+Combining csv files.ipynb                             Extracting features from nwb mouse specimen id.ipynb  Message Output for Human Specimen  screen_terminal_mouse9_retry.txt
+end                                                   full_human_features_from_nwb_local.csv                mouse_features_from_nwb9.csv
+Extracting features from nwb human specimen id.ipynb  Human missing specimens                               [0m[01;34mSCC_runs[0m
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ rm end
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ exit
+exit
+Script done, file is end
+kychen@scclogin02:/external/rprshnas01/kcni/ychen/collabgit/NWB_IPFX_Allen\[ychen@scclogin02 NWB_IPFX_Allen]$ exit
+exit
+
+Script done on Sun 26 Jul 2020 07:01:38 PM EDT
